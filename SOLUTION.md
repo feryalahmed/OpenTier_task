@@ -57,7 +57,7 @@ thread::spawn(move || {
 });
 ```
 
-### **Results**
+### **Notes**
 - All tests were successfully executed and passed individually, indicating that each feature works as expected in isolation. However, the tests do not run concurrently, which resulted in some inconsistencies when executing all tests together. Unfortunately, due to time constraints, I was unable to identify and resolve the underlying issue causing this behavior.
 
 - Additionally, I was unable to address the final test due to time limitations. Despite these challenges, I made significant progress in understanding and working with the Rust programming language for the first time. This project has been an invaluable learning experience, and I have gained a deeper understanding of Rust’s capabilities and paradigms.
